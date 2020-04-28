@@ -7,7 +7,9 @@ if [ 'root' != $( whoami ) ] ; then
   exit 1;
 fi
 
+
 echo "This will set up the PS2 Controller's prequisites for Raspberry Pi"
+
 
 # workaround for automatically calling from main shell script
 if ! [ "${1-install}" == "ignore" ] ; then

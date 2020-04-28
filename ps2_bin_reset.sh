@@ -7,7 +7,9 @@ if [ 'root' != $( whoami ) ] ; then
   exit 1;
 fi
 
+
 echo "This will reset PS2 Controller's binary for Raspberry Pi"
+
 
 # ----------- renew binary files --------------------
 # go to cpp code section, clean the c binary files and re-create them
